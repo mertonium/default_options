@@ -56,7 +56,7 @@ require 'default_options' # If you are using Rails, you don't need this line
 
 class AwesomeSauce
   include DefautOptions
-	
+
   def rad_thing(opts = {})
 	…
   end
@@ -66,7 +66,7 @@ end
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/default_options/fork )
+1. Fork it ( https://github.com/mertonium/default_options/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

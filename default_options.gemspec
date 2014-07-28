@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["john@versahq.com"]
   spec.summary       = %q{Super simple library provides an easy DSL for setting defaults on optional methods arguments.}
   spec.description   = %q{Implements a simple pattern for creating "options" in Ruby method. Mix it in to a class and use the DSL to setup defaults for methods that can easily be overwritten as needed.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mertonium/default_options"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

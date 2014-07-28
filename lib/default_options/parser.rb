@@ -2,7 +2,7 @@ module DefaultOptions
   class Parser
     def initialize(orides, &block)
       @defaults = {}
-      overrides(orides)
+      overrides(orides.dup)
       instance_eval(&block)
     end
 

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DefaultOptions::VERSION
   spec.authors       = ["John Mertens"]
   spec.email         = ["john@versahq.com"]
-  spec.summary       = %q{Super simple library provides an easy DSL for setting default options in methods.}
-  spec.description   = %q{}
+  spec.summary       = %q{Super simple library provides an easy DSL for setting defaults on optional methods arguments.}
+  spec.description   = %q{Implements a simple pattern for creating "options" in Ruby method. Mix it in to a class and use the DSL to setup defaults for methods that can easily be overwritten as needed.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
